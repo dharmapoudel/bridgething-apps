@@ -10,6 +10,7 @@ SOURCES = [
     "https://dharmapoudel.github.io/bridgething-calendar-source/catalog.v1.json",
     "https://dharmapoudel.github.io/bridgething-block-drop-source/catalog.v1.json",
     "https://dharmapoudel.github.io/bridgething-market-pulse-source/catalog.v1.json",
+    "https://dharmapoudel.github.io/bridgething-glass-overlay-source/catalog.v1.json",
 ]
 
 

@@ -13,9 +13,10 @@ The catalog merges these per-app sources:
 - Calendar — https://dharmapoudel.github.io/bridgething-calendar-source/catalog.v1.json
 - Block Drop — https://dharmapoudel.github.io/bridgething-block-drop-source/catalog.v1.json
 - Market Pulse — https://dharmapoudel.github.io/bridgething-market-pulse-source/catalog.v1.json
+- Glassy Overlay — https://dharmapoudel.github.io/bridgething-glass-overlay-source/catalog.v1.json
 
 ## Refreshing
 
-`python3 merge.py` re-fetches the four sources and rewrites `catalog.json`.
+`python3 merge.py` re-fetches the five sources and rewrites `catalog.json`.
 The `refresh` GitHub Actions workflow does this daily (and on demand via
 workflow dispatch) and publishes the result to the `gh-pages` branch.
