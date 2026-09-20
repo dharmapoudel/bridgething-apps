@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-09-19T13:58:53.997Z",
+  "updated_at": "2026-09-20T11:21:05.709Z",
   "repo": {
     "name": "Dharma's Bridgething apps",
     "description": "Every Bridgething app by Dharma Poudel in one catalog.",
