@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-09-20T11:21:05.709Z",
+  "updated_at": "2026-09-20T21:36:03.104Z",
   "repo": {
     "name": "Dharma's Bridgething apps",
     "description": "Every Bridgething app by Dharma Poudel in one catalog.",
@@ -23,6 +23,20 @@
       "homepage": "https://github.com/dharmapoudel/atlas-radio",
       "source": "https://github.com/dharmapoudel/atlas-radio",
       "versions": [
+        {
+          "version": "0.5.3",
+          "released_at": "2026-09-20T21:17:59.197Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.5.3.zip",
+            "size": 920519,
+            "sha256": "a4f0d475e6969d32976cb55ca2c0aef172d5a85880e5e4ea7b165f0d363741bf"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Favorites/Recent tabs: tapping them no longer shows \"Tuning in...\" while a\n  background station fetch is still in flight. Local tabs now clear the\n  loading state so the saved list (or the empty-state hint) renders\n  immediately on switch."
+        },
         {
           "version": "0.5.2",
           "released_at": "2026-09-16T02:28:39.262Z",
@@ -97,7 +111,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Removed the Join button: URLs in an event's description are now tappable links instead\n- Removed the calendar filter chips from the bottom of the month grid\n- Sync status (and the refresh button) moved to a footer at the bottom right\n- Month grid swipes up/down to change months instead of left/right (swipe up = next month), with a matching vertical slide animation\n- Removed the now-unused per-calendar visibility toggles\n- New custom settings page in the companion app: calendar feeds are now added one per row with + / \u00d7 buttons, so multiple feeds actually work (the old single-line field only ever kept one)"
         },
         {
           "version": "0.1.2",
@@ -111,7 +125,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Fixed the clock: time now renders in the phone's timezone (the device has no timezone of its own), and the daemon clock re-syncs every minute\n- Event times and day buckets also follow the phone's timezone now\n- Larger month title and larger date numbers\n- Month grid only renders the weeks it needs (5 rows for September 2026 instead of a padded 6th)\n- Smoother animations: direction-aware month slide, softer panel easing, event detail pops in"
         },
         {
           "version": "0.1.1",
@@ -125,7 +139,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Removed the persistent CALENDAR header for a cleaner top bar\n- New companion settings: hide week numbers, hide the event panel\n- Tapping a date slides the event panel in with an animation (tap the date again or \u2715 to dismiss)\n- Swipe left/right on the month grid to change months\n- Catppuccin Mocha color palette matching the original Omarchy calendar"
         },
         {
           "version": "0.1.0",
@@ -139,7 +153,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "Initial release.\n\n- Month grid with event dots, ISO week numbers, and Today shortcut\n- Selected-day agenda with times, locations, and all-day events\n- Next-event countdown banner with one-tap Join for Meet, Zoom, Teams, Webex, GoToMeeting, and Chime\n- Event detail modal with description and location\n- Full ICS support: RRULE recurrence, TZID timezones, EXDATE, RECURRENCE-ID overrides, multi-day events\n- Multiple feeds with per-calendar colors and visibility filters\n- Companion-app settings: feed URLs, week start, countdown window, refresh interval\n- Knob / arrow-key month navigation"
         }
       ]
     },
@@ -323,7 +337,7 @@
           },
           "permissions": [],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Fixed the app icon: back to the SVG Orbit icon. The 0.3.1 PNG rasterization\n  didn't display; the SVG is what shipped (and worked) in 0.2.0/0.3.0."
         },
         {
           "version": "0.3.1",
@@ -335,7 +349,7 @@
           },
           "permissions": [],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Code cleanup: extracted the shared zone-record parser used by JSON config\n  and device storage; simplified the base-format ref.\n- Performance: grid cells and column headers are memoized \u2014 cursor moves and\n  the 15s clock tick no longer redo the wall-clock lookup for every cell;\n  timezone offsets are cached; the picker's per-zone times quantize to the\n  minute.\n- Store assets: 800\u00d7480 screenshots (grid, overlap state, timezone picker)\n  and a 1024\u00d71024 PNG of the Orbit icon."
         }
       ]
     }
