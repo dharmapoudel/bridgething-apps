@@ -1,7 +1,7 @@
 {
   "$schema": "https://apps.bridgething.com/schemas/catalog/v1.json",
   "schema": "catalog.v1",
-  "updated_at": "2026-09-19T13:26:24.825Z",
+  "updated_at": "2026-09-30T02:31:28.673Z",
   "repo": {
     "name": "Dharma's Bridgething apps",
     "description": "Every Bridgething app by Dharma Poudel in one catalog.",
@@ -24,6 +24,118 @@
       "source": "https://github.com/dharmapoudel/atlas-radio",
       "versions": [
         {
+          "version": "0.6.6",
+          "released_at": "2026-09-22T02:28:20.383Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.6.zip",
+            "size": 1207647,
+            "sha256": "2c35bb3a9e6b5c17a787e2460e0f5cb6ecf2066e6f9da066205357d2de38fe42"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Portrait layout: the two landscape panels stack top/bottom, sized\n  proportionally to their landscape widths (station list 68% on top,\n  Now Playing 32% below). Header stacks the search under the brand row,\n  tabs scroll horizontally, country tiles use two columns.\n- Landscape (800x480) is unchanged."
+        },
+        {
+          "version": "0.6.5",
+          "released_at": "2026-09-21T01:50:08.275Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.5.zip",
+            "size": 1205561,
+            "sha256": "301888f6534ee96179dab8ef0caf3b039bd033a18f4901be7e3064b13383299e"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- New icon: a charcoal retro radio with an antenna.\n- Remembers the last open tab when the app reopens.\n- World tab: the station listing is re-randomized on every visit; map\n  defaults to zoom 1, zooming to 1.5 while a station plays.\n- Knob: scrolls lists with single-press select in World, Countries,\n  Favorites and Recents; on the Map tab a press toggles play/pause, and\n  turning it zooms. After selecting a station the knob drives volume for\n  8s, then hands back to the list; tapping outside the list hands the\n  knob to volume until the list is tapped again.\n- Added Noto Sans Devanagari and Arabic subsets so station names no\n  longer render as tofu boxes.\n- Removed the ESC key handler (the M button is the way out).\n- Favorites and Recents tabs load instantly from local data; yellow\n  accent (#f8c03d) applied across the app."
+        },
+        {
+          "version": "0.6.4",
+          "released_at": "2026-09-21T01:41:52.958Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.4.zip",
+            "size": 1204859,
+            "sha256": "6018163fc31b4b73f624f7fdbcc1861054c3c87c25ab5ba4bad79641aef4fac2"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
+          "version": "0.6.3",
+          "released_at": "2026-09-21T01:36:41.336Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.3.zip",
+            "size": 1200894,
+            "sha256": "b000c3d3a803855175709c48ded9d55305b457a27850ca18a217e461aa33b933"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
+          "version": "0.6.2",
+          "released_at": "2026-09-21T01:29:49.558Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.2.zip",
+            "size": 1222945,
+            "sha256": "62ac80f8839c93895967083204390d5e84d5920087333e248bfd9d4846882f6c"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
+          "version": "0.6.1",
+          "released_at": "2026-09-21T01:12:51.753Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.1.zip",
+            "size": 1200894,
+            "sha256": "5f0cbdd2f8e24d4924015f1461f26b707f743ff9cc610bc2db84574500e73de2"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
+          "version": "0.6.0",
+          "released_at": "2026-09-21T00:48:19.876Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.6.0.zip",
+            "size": 1207495,
+            "sha256": "490849c39b6633f077a4db933c6df6ec854ba7952ed61cfb7244c0cd4abbdd95"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
+          "version": "0.5.3",
+          "released_at": "2026-09-20T21:17:59.197Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/atlas-radio-source/r/01a08604-de6f-7a9f-a11e-1b4233458b2a/0.5.3.zip",
+            "size": 920519,
+            "sha256": "a4f0d475e6969d32976cb55ca2c0aef172d5a85880e5e4ea7b165f0d363741bf"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
           "version": "0.5.2",
           "released_at": "2026-09-16T02:28:39.262Z",
           "download": {
@@ -35,7 +147,7 @@
             "net.proxy"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": "- Countries tab: long-press a country tile to open a picker with every\n  country that has streams, and swap the tile for your pick. Countries\n  already on the grid are disabled so each appears only once. Custom tiles\n  are saved and survive relaunch. The country list is fetched in the\n  background at startup and cached for a week, so the picker opens instantly."
+          "changelog": null
         },
         {
           "version": "0.5.0",
@@ -49,7 +161,7 @@
             "net.proxy"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": "- Map tab: the knob now zooms the map by default. Once you tap a station dot\n  and it starts playing, the knob controls the volume instead; tapping the map\n  switches it back to zoom.\n- Map tab: zooming in reveals more station dots, up to 500 worldwide.\n- Fixed: leaving the Map tab (e.g. tapping a country) and coming back no\n  longer shrinks the station pool, so the extra dots from zooming stay.\n- Fixed: the map no longer jumps back to its default position when you return\n  to the Map tab; panning now persists across tab switches like zoom does.\n- Fixed: closing and reopening the app while a station plays now restores the\n  now-playing station. The companion's stream provider drops the play context,\n  so the phone reports no context uri; the app now matches the playing track's\n  uri against the saved station's stream url instead (foreign streams are\n  still never claimed). A restored session keeps the knob on its default\n  (zoom); volume mode is entered by tapping a station dot.\n- Added: starting a station now zooms the map onto that station's country with\n  the station at the center (zoom fits the country, 1x-4x). Stations without\n  coordinates fall back to the country view from the bundled map geometry,\n  so playing from any country's list still focuses the map when its tab is\n  opened. A relaunch restore deliberately leaves the saved map view alone.\n- UI: decluttered the help texts. The map hint is now a single contextual line\n  (the signal count moved out \u2014 the top bar already shows it), and the aside\n  shortcuts are four short lines: tabs/random/favorite, play/pause, exit,\n  knob state. No more duplicated knob info between the two.\n- Fixed: the now-playing button row moved further down (mt-12) so the favorite\n  button clears the Car Thing's physical knob overhang.\n- Help texts shrank to eyebrow size so \"1-5 tabs \u00b7 R random \u00b7 F favorite\" fits\n  on one row.\n- Map dots are smaller (r 2.5) and muted slate instead of shiny white; the\n  playing dot keeps its accent fill, pulse, and halo ring.\n- Opening the map tab (or launching the app) with a station playing now\n  centers the map on its halo dot; the playing dot is also pinned into the\n  dot pool so it never disappears at low zoom.\n- Play/pause button uses proper SVG icons instead of text glyphs.\n- Animations slimmed down for the weak device CPU: rows and country cards no\n  longer stagger one-by-one, all map dots share a single fade, and the\n  playing halo pulses via CSS instead of SMIL.\n- Recent tab has a \"Clear recent history\" row at the end of the list.\n- Glow-up: gradient app background, gradient primary buttons with a soft glow,\n  filled pill tabs, softer inputs, hover states on rows/cards, brighter map\n  countries and dots, a halo ring on the playing dot, a live status dot next\n  to the wordmark (pulses while playing), styled scrollbars, and Inter for UI\n  chrome (mono reserved for metadata). No new functionality."
+          "changelog": null
         },
         {
           "version": "0.4.7",
@@ -63,7 +175,7 @@
             "net.proxy"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": "- Bolder icon: the radio body outline is thicker (same Sonos sky blue)."
+          "changelog": null
         }
       ]
     },
@@ -81,6 +193,101 @@
       "source": "https://github.com/dharmapoudel/bridgething-calendar",
       "versions": [
         {
+          "version": "0.2.32",
+          "released_at": "2026-09-30T00:02:24.231Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/r/01a0890e-4a23-7000-bd4e-439997d71981/0.2.32.zip",
+            "size": 1215294,
+            "sha256": "9dc4be419f57f1a1f585a0543c4de2b5dd845cd4d746d06a933e594d0cdac9cd"
+          },
+          "settings": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/s/01a0890e-4a23-7000-bd4e-439997d71981/0.2.32.html",
+            "size": 17946,
+            "sha256": "5befc93d77a9436a752a107946abf1307dc18cdd6035be72427f978e730a40b8"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Background cache now holds at most 2 images: a new LRU scheme keeps only the current and previous backdrops (`unsplashBackdropDate/DataUrl` + `unsplashBackdropPrevDate/PrevDataUrl`), evicting older ones on every write. Startup purges the legacy Bing-era keys (`bingBackdropDate/DataUrl`) left by 0.2.21\u20130.2.23 so they stop occupying storage. Downloads stay at 800x480 (`w=800&h=480&fit=crop&q=80`), matching the Car Thing display \u2014 no full-resolution fetches."
+        },
+        {
+          "version": "0.2.31",
+          "released_at": "2026-09-29T23:51:16.733Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/r/01a0890e-4a23-7000-bd4e-439997d71981/0.2.31.zip",
+            "size": 1214700,
+            "sha256": "85012eaa1da53e2793266ca48d9ef7a329967116c630744e520f2985cfe5b3ed"
+          },
+          "settings": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/s/01a0890e-4a23-7000-bd4e-439997d71981/0.2.31.html",
+            "size": 17946,
+            "sha256": "5befc93d77a9436a752a107946abf1307dc18cdd6035be72427f978e730a40b8"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Removed the dead EPL feed (`https://www.fixturedownload.com/download/epl-2025-26-GMT.ics`, was 404ing) from the `ics_feeds` default, the App.tsx DEFAULT_FEEDS fallback, and the settings.html demo values. Defaults are now 5 feeds (Google US holidays, CalendarLabs US holidays, CalendarLabs Formula 1, CalendarLabs NFL, Google calendar); the other 5 URLs were verified live (HTTP 200) before release."
+        },
+        {
+          "version": "0.2.30",
+          "released_at": "2026-09-29T23:37:37.985Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/r/01a0890e-4a23-7000-bd4e-439997d71981/0.2.30.zip",
+            "size": 1214825,
+            "sha256": "8ca3bcf0d822a1803761b1d116881bf7ef13363f8c1d7fbe4b958e1768f18141"
+          },
+          "settings": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/s/01a0890e-4a23-7000-bd4e-439997d71981/0.2.30.html",
+            "size": 18069,
+            "sha256": "9ea8ff28cac1c73c955f63aa3c470714e89ac5fdad64f8a0bbb7d4de5844cdb8"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": null
+        },
+        {
+          "version": "0.1.5",
+          "released_at": "2026-09-22T00:41:43.062Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/r/01a0890e-4a23-7000-bd4e-439997d71981/0.1.5.zip",
+            "size": 1190722,
+            "sha256": "33587f8d0ecc26a88dda57889ce56ece39968ca123b88d2fbba169add825dadb"
+          },
+          "settings": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/s/01a0890e-4a23-7000-bd4e-439997d71981/0.1.5.html",
+            "size": 16762,
+            "sha256": "eabfddc304bc6603ed55a2990bf87d9573da8fcef42d28acc92927006be3dae2"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Portrait layout fix: in portrait (480x800) the month grid now takes the full width with the agenda stacked below it (Weather-style column), and the slide-over event panel becomes a bottom sheet; the event detail modal no longer overflows the narrower viewport. Landscape (800x480) is unchanged"
+        },
+        {
+          "version": "0.1.4",
+          "released_at": "2026-09-21T01:59:36.336Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/r/01a0890e-4a23-7000-bd4e-439997d71981/0.1.4.zip",
+            "size": 1189964,
+            "sha256": "e51ec6b01eece5ff71f741c488ce4290ffb1bba13a9f5bdc8c4017b2807936e9"
+          },
+          "settings": {
+            "url": "https://dharmapoudel.github.io/bridgething-calendar-source/s/01a0890e-4a23-7000-bd4e-439997d71981/0.1.4.html",
+            "size": 16762,
+            "sha256": "eabfddc304bc6603ed55a2990bf87d9573da8fcef42d28acc92927006be3dae2"
+          },
+          "permissions": [
+            "net.fetch"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Month grid swipes left/right to change months again (swipe left = next month); the top/bottom swipe from 0.1.3 is removed\n- Fonts now match Radio Atlas: Outfit + Inter with Noto Sans Devanagari and Noto Sans Arabic fallbacks so event titles in Hindi/Nepali/Arabic render instead of tofu blocks"
+        },
+        {
           "version": "0.1.3",
           "released_at": "2026-09-10T03:04:50.662Z",
           "download": {
@@ -97,7 +304,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Removed the Join button: URLs in an event's description are now tappable links instead\n- Removed the calendar filter chips from the bottom of the month grid\n- Sync status (and the refresh button) moved to a footer at the bottom right\n- Month grid swipes up/down to change months instead of left/right (swipe up = next month), with a matching vertical slide animation\n- Removed the now-unused per-calendar visibility toggles\n- New custom settings page in the companion app: calendar feeds are now added one per row with + / \u00d7 buttons, so multiple feeds actually work (the old single-line field only ever kept one)"
         },
         {
           "version": "0.1.2",
@@ -111,7 +318,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Fixed the clock: time now renders in the phone's timezone (the device has no timezone of its own), and the daemon clock re-syncs every minute\n- Event times and day buckets also follow the phone's timezone now\n- Larger month title and larger date numbers\n- Month grid only renders the weeks it needs (5 rows for September 2026 instead of a padded 6th)\n- Smoother animations: direction-aware month slide, softer panel easing, event detail pops in"
         },
         {
           "version": "0.1.1",
@@ -125,7 +332,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Removed the persistent CALENDAR header for a cleaner top bar\n- New companion settings: hide week numbers, hide the event panel\n- Tapping a date slides the event panel in with an animation (tap the date again or \u2715 to dismiss)\n- Swipe left/right on the month grid to change months\n- Catppuccin Mocha color palette matching the original Omarchy calendar"
         },
         {
           "version": "0.1.0",
@@ -139,7 +346,7 @@
             "net.fetch"
           ],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "Initial release.\n\n- Month grid with event dots, ISO week numbers, and Today shortcut\n- Selected-day agenda with times, locations, and all-day events\n- Next-event countdown banner with one-tap Join for Meet, Zoom, Teams, Webex, GoToMeeting, and Chime\n- Event detail modal with description and location\n- Full ICS support: RRULE recurrence, TZID timezones, EXDATE, RECURRENCE-ID overrides, multi-day events\n- Multiple feeds with per-calendar colors and visibility filters\n- Companion-app settings: feed URLs, week start, countdown window, refresh interval\n- Knob / arrow-key month navigation"
         }
       ]
     },
@@ -157,6 +364,54 @@
       "homepage": "https://github.com/dharmapoudel/bridgething-block-drop",
       "source": "https://github.com/dharmapoudel/bridgething-block-drop",
       "versions": [
+        {
+          "version": "0.1.5",
+          "released_at": "2026-09-23T21:05:31.309Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-block-drop-source/r/01a0989a-bd39-7de6-9314-16769a9163d7/0.1.5.zip",
+            "size": 900350,
+            "sha256": "5f91890ee35e862311d059c974d2ea788bfa30b62df561f56232b8afa7c376ff"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Fixed the portrait layout mispositioning on-device: the daemon's rotation script CSS-transforms the page but the body pin to 480x800 can lose a race, leaving h-full/w-full resolving against the 800x480 viewport. The app now pins the body to 480x800 itself in portrait mode (harmless when the daemon already did it).\n- Landscape (800x480) layout is unchanged."
+        },
+        {
+          "version": "0.1.4",
+          "released_at": "2026-09-22T03:18:04.818Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-block-drop-source/r/01a0989a-bd39-7de6-9314-16769a9163d7/0.1.4.zip",
+            "size": 900049,
+            "sha256": "0f45705116a4eadfb7adf84f7758c5e3bb7ab21969835b047cba6b054cec20d8"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Fixed the portrait layout on the device: the daemon pins the page to a 480x800 layout box while the viewport stays 800x480, so the viewport-unit roots (w-screen/h-screen) rendered an 800x480 strip. Portrait roots now fill the pinned body instead, and the pause/game-over overlay is anchored to the portrait layout.\n- Landscape (800x480) layout is unchanged."
+        },
+        {
+          "version": "0.1.3",
+          "released_at": "2026-09-22T02:56:35.171Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-block-drop-source/r/01a0989a-bd39-7de6-9314-16769a9163d7/0.1.3.zip",
+            "size": 899992,
+            "sha256": "301881dc73312f86f0ab10dff792dda4dd365326f5bd6b497cdaccab0e9459bd"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Fixed portrait detection on the device: the kiosk pins the layout viewport at 800x480 and rotates the panel, so the old CSS orientation query never fired \u2014 portrait is now detected via screen.orientation (same approach as Calendar 0.1.7).\n- Portrait menu: the three mode cards (Classic, Sprint, Ultra) stack vertically, one on top of the other.\n- Portrait game screen reflows into a vertical column: the playfield sits in the middle as the main section, the score strip and hold/next row sit beneath it, and the control buttons sit at the bottom."
+        },
+        {
+          "version": "0.1.2",
+          "released_at": "2026-09-22T00:35:27.378Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-block-drop-source/r/01a0989a-bd39-7de6-9314-16769a9163d7/0.1.2.zip",
+            "size": 899533,
+            "sha256": "b6a3a82a6e6e692394fd8964dab9562f9841b45db7c216e9692af71f18c47937"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Portrait mode (480x800): the game screen now reflows vertically - compact stats strip on top, playfield with hold/next beside it, and touch controls in easy reach below.\n- Portrait mode menu: the three mode cards stack vertically so they fit the narrow screen.\n- Landscape (800x480) layout is unchanged."
+        },
         {
           "version": "0.1.1",
           "released_at": "2026-09-13T03:35:21.353Z",
@@ -185,6 +440,34 @@
       "homepage": "https://github.com/dharmapoudel/bridgething-market-pulse-source",
       "source": "https://github.com/dharmapoudel/bridgething-market-pulse-source",
       "versions": [
+        {
+          "version": "0.1.4",
+          "released_at": "2026-09-23T03:02:32.438Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-market-pulse-source/r/01a0989a-d829-74f3-8463-5e44485c96fb/0.1.4.zip",
+            "size": 864983,
+            "sha256": "2df9b1a759f58122ccc98e391b0dc2d54ab724d67742258839548361fb05ade8"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Portrait crypto rows restyled like the reference: circular colored coin icons, bold name with dimmed symbol, price with a green/red \u25b2/\u25bc dollar-and-percent change line, thin dividers, and a subtle chevron. No more sparklines in portrait. Landscape (800x480) is unchanged."
+        },
+        {
+          "version": "0.1.3",
+          "released_at": "2026-09-22T00:43:36.645Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-market-pulse-source/r/01a0989a-d829-74f3-8463-5e44485c96fb/0.1.3.zip",
+            "size": 863656,
+            "sha256": "d4bcba30f170ad56b61c7be57ae81c145e444da3d90daa2b88f866e705f3713e"
+          },
+          "permissions": [
+            "net.proxy"
+          ],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "Portrait layout (480x800): the app now reflows for portrait -- two-row header with full-width section tabs, crypto rows fit without clipping, and the sentiment gauge and yield curve stack vertically. Landscape (800x480) is unchanged."
+        },
         {
           "version": "0.1.2",
           "released_at": "2026-09-13T03:11:56.049Z",
@@ -232,7 +515,7 @@
     {
       "id": "01a0984d-3d32-7e4d-b3e3-74de735362cf",
       "name": "Glassy Overlay",
-      "description": "A glassy system overlay: notifications, calls, pairing, volume and voice, plus an idle ambient dashboard with clock, weather and now playing, drawn over every app. Includes a launcher settings page for the ambient idle timeout.",
+      "description": "A glassy system overlay: notifications, calls, pairing, volume and voice, plus an idle ambient dashboard with clock, weather and now playing. Settings cover the ambient screensaver, weather, and the Frostiness of the glass surfaces.",
       "author": "Dharma Poudel",
       "icon": "https://dharmapoudel.github.io/bridgething-glass-overlay-source/icons/01a0984d-3d32-7e4d-b3e3-74de735362cf.png",
       "screenshots": [
@@ -245,6 +528,58 @@
       "homepage": "https://github.com/dharmapoudel/bridgething-glass-overlay",
       "source": "https://github.com/dharmapoudel/bridgething-glass-overlay",
       "versions": [
+        {
+          "version": "0.3.40",
+          "released_at": "2026-09-30T02:29:08.431Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-glass-overlay-source/r/01a0984d-3d32-7e4d-b3e3-74de735362cf/0.3.40.zip",
+            "size": 172387,
+            "sha256": "4b7082befce13bd0617fc7b2856c8c104b8206fd989cf321c902a4c35a56f8b5"
+          },
+          "permissions": [],
+          "provides_overlay": true,
+          "min_libbridgething_version": "0.12.10",
+          "changelog": "- Removed the white tint wash: the blurred background now determines the\n  glass color (dark backgrounds stay dark, bright ones stay bright), with\n  only a slight brightness lift to keep it airy. The four levels scale\n  blur (0/8/20/32px) plus sheen/border/highlight intensity."
+        },
+        {
+          "version": "0.3.38",
+          "released_at": "2026-09-28T03:30:00.777Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-glass-overlay-source/r/01a0984d-3d32-7e4d-b3e3-74de735362cf/0.3.38.zip",
+            "size": 172373,
+            "sha256": "7571ef8f007bee5f719d9f276953db9f394ca0d8b33e9ca2fb0a857a5c88d70d"
+          },
+          "permissions": [],
+          "provides_overlay": true,
+          "min_libbridgething_version": "0.12.10",
+          "changelog": "- Updated store metadata (full settings description) and refreshed all five\n  store screenshots with the current liquid-glass look."
+        },
+        {
+          "version": "0.3.26",
+          "released_at": "2026-09-24T00:38:37.164Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-glass-overlay-source/r/01a0984d-3d32-7e4d-b3e3-74de735362cf/0.3.26.zip",
+            "size": 169976,
+            "sha256": "60303a3a22ec57100c3a882d92ae50255f4ba96988b82099a71c2c6c9e48729b"
+          },
+          "permissions": [],
+          "provides_overlay": true,
+          "min_libbridgething_version": "0.12.10",
+          "changelog": "- The weather location is no longer hardcoded: the overlay used to fall back\n  to a baked-in home coordinate when no location was set and the phone's\n  location was unavailable. It now uses the configured location (on-device\n  settings or companion app), the phone's location, or shows no weather.\n- New \"Weather refresh\" setting, in the on-device settings page and the\n  companion app: 5m / 15m / 30m / 1hr / 2hr tiles, same pattern as Idle\n  timeout (default 30m). The ambient dashboard re-arms its weather timer\n  whenever the setting changes.\n- Portrait ambient dashboard: slightly more left/right padding (24px to\n  32px). Landscape layout is unchanged."
+        },
+        {
+          "version": "0.3.25",
+          "released_at": "2026-09-23T21:06:46.259Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-glass-overlay-source/r/01a0984d-3d32-7e4d-b3e3-74de735362cf/0.3.25.zip",
+            "size": 169520,
+            "sha256": "4665ad2232c643d0a4a60fabc9eab33e9fc86b82bd77467697edd6a941d82bad"
+          },
+          "permissions": [],
+          "provides_overlay": true,
+          "min_libbridgething_version": "0.12.10",
+          "changelog": "- Settings page: the SETTINGS title now has 24px left padding so it aligns with the card titles below (they sit inside the cards' 24px padding). No change to the ambient dashboard."
+        },
         {
           "version": "0.3.21",
           "released_at": "2026-09-19T01:03:58.624Z",
@@ -304,7 +639,7 @@
       "name": "Timezones",
       "description": "World clock grid in the style of worldtimebuddy. The knob moves the time line; the window slides as you scroll.",
       "author": "Dharma Poudel",
-      "icon": "https://dharmapoudel.github.io/bridgething-timezones-source/icons/6aadfb91-01a0-7063-888b-e551ca7b4771.png",
+      "icon": "https://dharmapoudel.github.io/bridgething-timezones-source/icons/6aadfb91-01a0-7063-888b-e551ca7b4771.svg",
       "screenshots": [
         "https://dharmapoudel.github.io/bridgething-timezones-source/screenshots/6aadfb91-01a0-7063-888b-e551ca7b4771/01.png",
         "https://dharmapoudel.github.io/bridgething-timezones-source/screenshots/6aadfb91-01a0-7063-888b-e551ca7b4771/02.png",
@@ -313,6 +648,30 @@
       "homepage": "https://github.com/dharmapoudel/bridgething-timezones",
       "source": "https://github.com/dharmapoudel/bridgething-timezones",
       "versions": [
+        {
+          "version": "0.3.3",
+          "released_at": "2026-09-22T00:40:03.843Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-timezones-source/r/6aadfb91-01a0-7063-888b-e551ca7b4771/0.3.3.zip",
+            "size": 738028,
+            "sha256": "9d8cd0c17747b17b099072a0181403a3a2a27328157704797443b7733ee1b940"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Portrait layout (480x800): the grid now uses a narrower label column and\n  six roomier hour columns instead of ten cramped ones, the footer hints are\n  shortened to a single line, and the timezone picker modal fits the narrower\n  screen. Landscape (800x480) is unchanged."
+        },
+        {
+          "version": "0.3.2",
+          "released_at": "2026-09-19T13:47:26.002Z",
+          "download": {
+            "url": "https://dharmapoudel.github.io/bridgething-timezones-source/r/6aadfb91-01a0-7063-888b-e551ca7b4771/0.3.2.zip",
+            "size": 736556,
+            "sha256": "0de434a79b3dc9ad63b57858cb07895b8024389118679d5ab43cbd3e1c544da9"
+          },
+          "permissions": [],
+          "min_libbridgething_version": "0.12.1",
+          "changelog": "- Fixed the app icon: back to the SVG Orbit icon. The 0.3.1 PNG rasterization\n  didn't display; the SVG is what shipped (and worked) in 0.2.0/0.3.0."
+        },
         {
           "version": "0.3.1",
           "released_at": "2026-09-19T13:19:22.519Z",
@@ -323,7 +682,7 @@
           },
           "permissions": [],
           "min_libbridgething_version": "0.12.1",
-          "changelog": null
+          "changelog": "- Code cleanup: extracted the shared zone-record parser used by JSON config\n  and device storage; simplified the base-format ref.\n- Performance: grid cells and column headers are memoized \u2014 cursor moves and\n  the 15s clock tick no longer redo the wall-clock lookup for every cell;\n  timezone offsets are cached; the picker's per-zone times quantize to the\n  minute.\n- Store assets: 800\u00d7480 screenshots (grid, overlap state, timezone picker)\n  and a 1024\u00d71024 PNG of the Orbit icon."
         }
       ]
     }
