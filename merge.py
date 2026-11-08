@@ -12,6 +12,7 @@ SOURCES = [
     "https://dharmapoudel.github.io/bridgething-market-pulse-source/catalog.v1.json",
     "https://dharmapoudel.github.io/bridgething-glass-overlay-source/catalog.v1.json",
     "https://dharmapoudel.github.io/bridgething-timezones-source/catalog.v1.json",
+    "https://dharmapoudel.github.io/bridgething-nimbus/catalog.v1.json",
 ]
 
 
